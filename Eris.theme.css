@@ -11,7 +11,11 @@
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/BlurpleRecolor/BlurpleRecolor.css);
 
 :root, .theme-dark, .theme-light {
-    --font: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif; 
+    --font: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+    
+    --font-primary: var(--font) !important;
+	--font-display: var(--font) !important;
+
     --brand-experiment: hsl(227, 58%, 65%);
     --brand-500: var(--brand-experiment);
     --brand-experiment-560: hsl(227, 58%, 67.5%);
