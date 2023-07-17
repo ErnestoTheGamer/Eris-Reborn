@@ -39,7 +39,7 @@
 	/* --backgroundfloating: 		0,0,0;					/*	Background Elevated	 - 	default:	24,25,28		 - 	hex:	#18191c		*/
 }
 
-.theme-light:not(.userProfileOuterThemed-2BgJCM),
+/* .theme-light:not(.userProfileOuterThemed-2BgJCM),
 .theme-dark:not(.userProfileOuterThemed-2BgJCM),
 .theme-amoled:not(.userProfileOuterThemed-2BgJCM) {
 	--text-positive: rgb(var(--successcolor));
@@ -140,14 +140,14 @@
 	--modal-background: rgb(var(--backgroundprimary));
 	--modal-footer-background: rgb(var(--backgroundsecondary));
 	
-	/* --background-primary: rgb(var(--backgroundprimary));
+	--background-primary: rgb(var(--backgroundprimary));
 	--background-secondary: rgb(var(--backgroundsecondary));
 	--background-secondary-alt: rgb(var(--backgroundsecondaryalt));
 	--background-tertiary: rgb(var(--backgroundtertiary));
 	--background-accent: rgb(var(--backgroundaccent));
 	--background-floating: rgb(var(--backgroundfloating));
 	--background-mobile-primary: rgb(var(--backgroundprimary));
-	--background-mobile-secondary: rgb(var(--backgroundsecondary)); */
+	--background-mobile-secondary: rgb(var(--backgroundsecondary));
 	
 	--background-modifier-hover: rgba(var(--backgroundaccent),.3);
 	--background-modifier-active: rgba(var(--backgroundaccent),.4);
@@ -214,7 +214,7 @@
 	
 	--font-primary: var(--font) !important;
 	--font-display: var(--font) !important;
-}
+} */
 
 html {
 	color: var(--header-primary);
