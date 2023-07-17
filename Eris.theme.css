@@ -58,6 +58,62 @@
 	--textdarkest: 				80,80,80;				/*	Text Color 6		 - 	default:	79,84,92		 - 	hex:	#4f545c		*/
 }
 
+.description-1u9Qui {
+	color: var(--header-secondary);
+}
+
+#app-mount h1.title-338goq,
+#app-mount h2.title-338goq {
+	color: var(--header-primary);
+}
+#app-mount h3.title-338goq {
+	color: var(--text-normal);
+}
+#app-mount h4.title-338goq,
+#app-mount h5.title-338goq,
+#app-mount h6.title-338goq {
+	color: var(--header-secondary);
+}
+
+#app-mount .text-27cdrj,
+#app-mount .title-2CL_z0 {
+	color: var(--text-muted);
+}
+
+#app-mount .title-338goq {
+	color: var(--header-secondary);
+}
+
+#app-mount .markdown-19oyJN {
+	color: var(--text-normal);
+}
+#app-mount .markdown-19oyJN th {
+	background-color: var(--background-tertiary);
+	border-color: var(--interactive-muted);
+	color: var(--header-primary);
+}
+#app-mount .markdown-19oyJN td {
+	border-color: var(--interactive-muted);
+}
+#app-mount .markdown-19oyJN tr {
+	border-color: var(--interactive-muted);
+	color: var(--header-secondary);
+}
+#app-mount .markdown-19oyJN tr:nth-child(2n) {
+	background-color: var(--background-secondary);
+}
+#app-mount .markdown-19oyJN .blockquote-2mppuN {
+	border-left-color: var(--interactive-muted);
+}
+#app-mount .markdown-19oyJN code {
+	background-color: var(--background-secondary);
+}
+#app-mount .markdown-19oyJN .codeInline-1RFl81 {
+	color: var(--text-normal);
+}
+
+
+
 .theme-dark {
     --background-primary: #1f2125;
     --background-tertiary: #14161a;
