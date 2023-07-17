@@ -53,7 +53,6 @@
 	--background-floating: rgb(var(--backgroundfloating));
 	--background-mobile-primary: rgb(var(--backgroundprimary));
 	--background-mobile-secondary: rgb(var(--backgroundsecondary));
-	--background-modifier-hover: rgba(var(--backgroundaccent),.3);
 	--background-modifier-active: rgba(var(--backgroundaccent),.4);
 	--background-modifier-selected: rgba(var(--backgroundaccent),.6);
 	--background-modifier-accent: rgba(var(--textdark),.1);
@@ -3192,7 +3191,6 @@ html .floating-window.resizable {
 }
 html .floating-window-titlebar {
 	background: var(--background-tertiary);
-	border-bottom-color: var(--background-modifier-hover);
 	color: var(--header-primary);
 	width: unset;
 	height: 32px;
@@ -3210,7 +3208,6 @@ html .floating-window-buttons .button {
 	width: 32px;
 }
 html .floating-window-buttons .button:hover {
-	background-color: var(--background-modifier-hover);
 	color: var(--interactive-hover);
 }
 html .floating-window-buttons .close-button:hover {
@@ -3255,7 +3252,6 @@ html #bd-editor-controls button {
 	width: 32px;
 }
 html #bd-editor-controls button:hover {
-	background-color: var(--background-modifier-hover);
 	color: var(--interactive-hover);
 }
 html #bd-editor-controls button path:not([fill]) {
@@ -3339,7 +3335,6 @@ html .monaco-editor .find-widget .monaco-inputbox textarea {
 html .monaco-editor .find-widget .button:not(.disabled):hover,
 html .monaco-editor.hc-black .find-widget .button:not(.disabled):hover,
 html .monaco-editor.vs-dark .find-widget .button:not(.disabled):hover {
-	background-color: var(--background-modifier-hover);
 }
 
 html .monaco-editor .monaco-editor-hover {
