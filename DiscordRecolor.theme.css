@@ -78,10 +78,6 @@
 	--button-danger-background-hover: rgba(var(--dangercolor),.9);
 	--button-danger-background-active: rgb(var(--dangercolor));
 	--button-danger-background-disabled: rgba(var(--dangercolor),.2);
-	--button-secondary-background: rgb(var(--textdarkest));
-	--button-secondary-background-hover: rgb(var(--textdarker));
-	--button-secondary-background-active: rgb(var(--textdark));
-	--button-secondary-background-disabled: rgb(var(--textdarkest));
 
 	--button-outline-positive-text: rgb(var(--successcolor)) !important;
 	--button-outline-positive-text-hover: rgb(var(--successcolor)) !important;
