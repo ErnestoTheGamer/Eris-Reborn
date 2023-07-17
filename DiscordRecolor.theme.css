@@ -17,30 +17,6 @@
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/BlurpleRecolor/BlurpleRecolor.css);
 
 :root {
-	--font:							"gg sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	
-	--mentioncolor: 				250,166,26;
-	--successcolor: 				59,165,92;
-	--warningcolor: 				250,166,26;
-	--dangercolor: 					237,66,69;
-	
-	--textbrightest: 				255,255,255;
-	--textbrighter: 				220,221,222;
-	--textbright: 					185,187,190;
-	--textdark: 					142,146,151;
-	--textdarker: 					114,118,125;
-	--textdarkest: 					79,84,92;
-	
-	/* --backgroundaccent: 			64,68,75; */
-	/* --backgroundprimary: 			54,57,63;
-	--backgroundsecondary: 			47,49,54;
-	--backgroundsecondaryalt: 		41,43,47;
-	--backgroundtertiary: 			32,34,37;
-	--backgroundfloating: 			24,25,28; */
-}
-
-:root {
-	--font:						"gg sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;		/*	General Font			*/
 	--settingsicons:			1;						/*	Use Settings Icons in User Settings: 1 = yes, 0 = no						*/
 	
 	--accentcolor: 				88,101,242;				/*	Blurple				 - 	default:	88,101,242		 - 	hex:	#5865f2		*/
@@ -58,12 +34,7 @@
 	--textdarker: 				115,115,115;			/*	Text Color 5		 - 	default:	114,118,125		 - 	hex:	#72767d		*/
 	--textdarkest: 				80,80,80;				/*	Text Color 6		 - 	default:	79,84,92		 - 	hex:	#4f545c		*/
 	
-	--backgroundaccent: 		50,50,50;				/*	Background Accent	 - 	default:	64,68,75		 - 	hex:	#40444b		*/
-	--backgroundprimary: 		30,30,30;				/*	Background 1		 - 	default:	54,57,63		 - 	hex:	#36393f		*/
-	--backgroundsecondary: 		20,20,20;				/*	Background 2		 - 	default:	47,49,54		 - 	hex:	#2f3136		*/
-	--backgroundsecondaryalt: 	15,15,15;				/*	Background 3		 - 	default:	41,43,47		 - 	hex:	#292b2f		*/
-	--backgroundtertiary: 		10,10,10;				/*	Background 4		 - 	default:	32,34,37		 - 	hex:	#202225		*/
-	--backgroundfloating: 		0,0,0;					/*	Background Elevated	 - 	default:	24,25,28		 - 	hex:	#18191c		*/
+
 }
 
 .theme-light:not(.userProfileOuterThemed-2BgJCM),
