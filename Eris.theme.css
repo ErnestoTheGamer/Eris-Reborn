@@ -1,7 +1,7 @@
 /**
  * @name Eris Blurple
  * @author Rock#5429, Ernesto
- * @version 1
+ * @version 1.0
  * @description A darker, cooler, classier look for Discord.
  * @source https://github.com/RockESV/Eris
 */
@@ -38,95 +38,6 @@
     --dark-elevation-low: var(--box-shadow);
     --search-popout-option-fade: transparent;
     --search-popout-option-fade-hover: transparent;
-
-    --settingsicons:			1;						/*	Use Settings Icons in User/Server/Channel Settings: 1 = yes, 0 = no			*/
-	
-	--accentcolor: 				88,101,242;				/*	Blurple				 - 	default:	88,101,242		 - 	hex:	#5865f2		*/
-	--accentcolor2: 			255,115,250;			/*	Boostpink			 - 	default:	255,115,250		 - 	hex:	#ff73fa		*/
-	--linkcolor: 				0,176,244;				/*	Link Color			 - 	default:	0,176,244		 - 	hex:	#00b0f4		*/
-	--mentioncolor: 			250,166,26;				/*	Highlight Color		 - 	default:	250,166,26		 - 	hex:	#faa61a		*/
-	--successcolor: 			59,165,92;				/*	Success Color		 - 	default:	59,165,92		 - 	hex:	#3ba55c		*/
-	--warningcolor: 			250,166,26;				/*	Warning Color		 - 	default:	250,166,26		 - 	hex:	#faa61a		*/
-	--dangercolor:  			237,66,69;				/*	Danger Color		 - 	default:	237,66,69		 - 	hex:	#ed4245		*/
-	
-	--textbrightest: 			255,255,255;			/*	Text Color 1		 - 	default:	255,255,255		 - 	hex:	#ffffff		*/
-	--textbrighter: 			222,222,222;			/*	Text Color 2		 - 	default:	220,221,222		 - 	hex:	#dcddde		*/
-	--textbright: 				185,185,185;			/*	Text Color 3		 - 	default:	185,187,190		 - 	hex:	#b9bbbe		*/
-	--textdark: 				140,140,140;			/*	Text Color 4		 - 	default:	142,146,151		 - 	hex:	#8e9297		*/
-	--textdarker: 				115,115,115;			/*	Text Color 5		 - 	default:	114,118,125		 - 	hex:	#72767d		*/
-	--textdarkest: 				80,80,80;				/*	Text Color 6		 - 	default:	79,84,92		 - 	hex:	#4f545c		*/
-
-    --text-positive: rgb(var(--successcolor));
-	--text-warning: rgb(var(--warningcolor));
-	--text-danger: rgb(var(--dangercolor));
-	--info-positive-background: rgba(var(--successcolor),.1);
-	--info-positive-foreground: rgb(var(--successcolor));
-	--info-positive-text: #fff;
-	--info-warning-background: rgba(var(--warningcolor),.1);
-	--info-warning-foreground: rgb(var(--warningcolor));
-	--info-warning-text: #fff;
-	--info-danger-background: rgba(var(--dangercolor),.1);
-	--info-danger-foreground: rgb(var(--dangercolor));
-	--info-danger-text: #fff;
-	--status-positive-background: rgb(var(--successcolor));
-	--status-positive-text: #fff;
-	--status-warning-background: rgb(var(--warningcolor));
-	--status-warning-text: #fff;
-	--status-danger-background: rgb(var(--dangercolor));
-	--status-danger-text: #fff;
-	--header-primary: rgb(var(--textbrightest));
-	--header-secondary: rgb(var(--textbright));
-	--text-normal: rgb(var(--textbrighter));
-	--text-muted: rgb(var(--textdarker));
-	--channels-default: rgb(var(--textdark));
-	--interactive-normal: rgb(var(--textbright));
-	--interactive-hover: rgb(var(--textbrighter));
-	--interactive-active: rgb(var(--textbrightest));
-	--interactive-muted: rgb(var(--textdarkest));
-	--background-primary: rgb(var(--backgroundprimary));
-	--background-secondary: rgb(var(--backgroundsecondary));
-	--background-secondary-alt: rgb(var(--backgroundsecondaryalt));
-	--background-tertiary: rgb(var(--backgroundtertiary));
-	--background-accent: rgb(var(--backgroundaccent));
-	--background-floating: rgb(var(--backgroundfloating));
-	--background-mobile-primary: rgb(var(--backgroundprimary));
-	--background-mobile-secondary: rgb(var(--backgroundsecondary));
-	--background-modifier-hover: rgba(var(--backgroundaccent),.3);
-	--background-modifier-active: rgba(var(--backgroundaccent),.4);
-	--background-modifier-selected: rgba(var(--backgroundaccent),.6);
-	--background-modifier-accent: rgba(var(--textdark),.1);
-	--background-mentioned: rgba(var(--mentioncolor, --warningcolor),.05);
-	--background-mentioned-hover: rgba(var(--mentioncolor, --warningcolor),.08);
-	--background-mentioned-accent: rgb(var(--mentioncolor, --warningcolor));
-	--background-message-hover: rgba(var(--backgroundfloating),.15);
-	--scrollbar-thin-thumb: rgb(var(--backgroundtertiary));
-	--scrollbar-thin-track: transparent;
-	--scrollbar-auto-thumb: rgb(var(--backgroundtertiary));
-	--scrollbar-auto-track: rgb(var(--backgroundsecondary));
-	--scrollbar-auto-scrollbar-color-thumb: rgb(var(--backgroundtertiary));
-	--scrollbar-auto-scrollbar-color-track: rgb(var(--backgroundsecondary));
-	--elevation-stroke: 0 0 0 1px rgba(6,6,7,.08);
-	--elevation-low: 0 1px 0 rgba(6,6,7,.1), 0 1.5px 0 rgba(6,6,7,.25), 0 2px 0 rgba(6,6,7,.025);
-	--elevation-medium: 0 4px 4px rgba(0,0,0,.08);
-	--elevation-high: 0 8px 16px rgba(0,0,0,.16);
-	--logo-primary: rgb(var(--accentcolor));
-	--focus-primary: rgb(var(--linkcolor));
-	--guild-header-text-shadow: 0 1px 1px rgba(var(--backgroundfloating),.5);
-	--channeltextarea-background: rgba(var(--backgroundaccent),.8);
-	--activity-card-background: rgb(var(--backgroundtertiary));
-	--textbox-markdown-syntax: rgb(var(--textdark));
-	--deprecated-card-bg: rgba(var(--backgroundtertiary),.6);
-	--deprecated-card-editable-bg: rgba(var(--backgroundtertiary),.3);
-	--deprecated-store-bg: rgb(var(--backgroundprimary));
-	--deprecated-quickswitcher-input-background: rgb(var(--backgroundaccent));
-	--deprecated-quickswitcher-input-placeholder: rgb(var(--textdarker));
-	--deprecated-text-input-bg: rgba(0,0,0,.1);
-	--deprecated-text-input-border: rgba(0,0,0,.3);
-	--deprecated-text-input-border-hover: #040405;
-	--deprecated-text-input-border-disabled: #202225;
-	--deprecated-text-input-prefix: rgb(var(--textbrighter));
-	--font-primary: var(--font) !important;
-	--font-display: var(--font) !important;
 }
 
 .theme-dark {
@@ -404,4 +315,107 @@
 
 .wrapper-2SplAX {   /* Box shadow for "Follow to get this channel's updates in your own server." wrapper */
     box-shadow: var(--box-shadow);
+}
+
+
+
+
+
+html .monaco-menu .monaco-action-bar.vertical .action-menu-item {
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-color: var(--interactive-normal) !important;
+	border-radius: 2px;
+	box-sizing: border-box;
+	color: var(--interactive-normal) !important;
+	cursor: pointer;
+	margin: 2px 0;
+	padding: 6px 8px;
+	line-height: 18px;
+	font-size: 14px;
+	font-weight: 500;
+	box-sizing: border-box;
+	min-height: 32px;
+}
+html .monaco-menu .monaco-action-bar.vertical .action-label {
+	flex: 1 1 auto;
+	white-space: nowrap;
+	overflow: hidden;
+	font-size: unset;
+	line-height: unset;
+	text-overflow: ellipsis;
+	padding: unset;
+}
+html .monaco-menu .monaco-action-bar.vertical .keybinding,
+html .monaco-menu .monaco-action-bar.vertical .submenu-indicator {
+	font-size: unset;
+	line-height: unset;
+	padding-left: unset;
+	flex: 0 0 auto;
+    max-height: 18px;
+    margin-left: 8px;
+}
+
+html .channelTabs-tabName,
+html .channelTabs-favName {
+	display: inline-flex !important;
+	position: static !important;
+	margin: 0 !important;
+	width: unset !important;
+	font-size: 16px;
+	line-height: 20px;
+	font-weight: 500;
+	white-space: nowrap;
+}
+
+html .channelTabs-closeTab,
+html .channelTabs-tab.channelTabs-selected .channelTabs-closeTab {
+	background-color: transparent;
+	color: var(--interactive-hover);
+	border-radius: 50%;
+	width: 14px;
+	height: 14px;
+	min-width: 14px;
+	min-height: 14px;
+	font-size: 14px;
+	line-height: unset;
+}
+html:only-child > head + body > div#app-mount.appMount-2yBXZl > div.app-3xd6d0 > div.app-2CXKsg > div.layers-OrUESM.layers-1YQhyW > div.layer-86YKbF.baseLayer-W6S8cY + div.layer-86YKbF > div.standardSidebarView-E9Pc3j > div.sidebarRegion-1VBisG > div.sidebarRegionScroller-FXiQOh.thin-31rlnD.scrollerBase-_bVAAt.fade-1R6FHN > nav.sidebar-nqHbhN > div.side-2ur1Qk > div.info-1sUqUG::after {
+	content: "DiscordRecolor by" !important;
+	font-size: 12px !important;
+	color: var(--text-muted) !important;
+	cursor: pointer !important;
+	display: inline !important;
+	opacity: 1 !important;
+	padding: 0 !important;
+	margin: 0 !important;
+	cursor: text !important;
+	visibility: visible !important;
+	position: relative !important;
+	top: unset !important;
+	left: unset !important;
+	bottom: unset !important;
+	right: unset !important;
+	transform: unset !important;
+	animation: unset !important;
+}
+html:only-child > head + body > div#app-mount.appMount-2yBXZl > div.app-3xd6d0 > div.app-2CXKsg > div.layers-OrUESM.layers-1YQhyW > div.layer-86YKbF.baseLayer-W6S8cY + div.layer-86YKbF > div.standardSidebarView-E9Pc3j > div.sidebarRegion-1VBisG > div.sidebarRegionScroller-FXiQOh.thin-31rlnD.scrollerBase-_bVAAt.fade-1R6FHN > nav.sidebar-nqHbhN > div.side-2ur1Qk > div.info-1sUqUG::before {
+	content: "DevilBro" !important;
+	font-size: 12px !important;
+	color: rgb(var(--accentcolor)) !important;
+	display: inline !important;
+	opacity: 1 !important;
+	padding: 0 !important;
+	margin: 0 !important;
+	cursor: pointer !important;
+	visibility: visible !important;
+	position: absolute !important;
+	top: unset !important;
+	left: 106px !important;
+	bottom: 9px !important;
+	right: unset !important;
+	transform: unset !important;
+	animation: unset !important;
 }
