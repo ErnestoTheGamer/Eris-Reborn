@@ -1,7 +1,7 @@
 /**
- * @name Eris Blurple
- * @author Rock#5429, Ernesto
- * @version 1
+ * @name Eris
+ * @author Rock#5429
+ * @version 1.4
  * @description A darker, cooler, classier look for Discord.
  * @source https://github.com/RockESV/Eris
 */
@@ -11,8 +11,8 @@
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/BlurpleRecolor/BlurpleRecolor.css);
 
 :root, .theme-dark, .theme-light {
-    --font: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
-    
+	--font: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif; 
+
     --font-primary: var(--font) !important;
 	--font-display: var(--font) !important;
 
@@ -20,19 +20,19 @@
     --brand-500: var(--brand-experiment);
     --brand-experiment-560: hsl(227, 58%, 67.5%);
     --brand-experiment-600: hsl(227, 58%, 70%);
-    --background-secondary: var(--background-primary);
-    --background-secondary-alt: var(--background-primary);
-    --background-modifier-selected: var(--background-tertiary);
-    --background-floating: var(--background-tertiary);
-    --channeltextarea-background: var(--background-tertiary);
-    --input-background: var(--background-tertiary);
-    --scrollbar-auto-thumb: var(--background-tertiary);
+    --background-secondary: var(--background-primary) !important;
+    --background-secondary-alt: var(--background-primary) !important;
+    --background-modifier-selected: var(--background-tertiary) !important;
+    --background-floating: var(--background-tertiary) !important;
+    --channeltextarea-background: var(--background-tertiary) !important;
+    --input-background: var(--background-tertiary) !important;
+    --scrollbar-auto-thumb: var(--background-tertiary) !important;
     --scrollbar-auto-track: transparent;
-    --scrollbar-thin-thumb: var(--background-tertiary);
+    --scrollbar-thin-thumb: var(--background-tertiary) !important;
     --scrollbar-thin-track: transparent;
-    --modal-background: var(--background-primary);
-    --modal-footer-background: var(--background-primary);
-    --deprecated-card-bg: var(--background-tertiary);
+    --modal-background: var(--background-primary) !important;
+    --modal-footer-background: var(--background-primary) !important;
+    --deprecated-card-bg: var(--background-tertiary) !important;
     --deprecated-text-input-border: none;
     --box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
     --elevation-high: var(--box-shadow);
@@ -69,7 +69,7 @@
 }
 
 :root .sidebarRegionScroller-FXiQOh { /* Settings sidebar background and selected options color */
-    background-color: var(--background-tertiary);
+    background-color: var(--background-tertiary) !important;
 }
 
 .side-1lrxIh .themed-qqoYp3.selected-1sf9UK.item-2GWPIy {
@@ -89,7 +89,7 @@
 }
 
 .popout-15UxD6, .formNotice-1JW4h2.cardPrimary-3qRT__.card-16VQ8C, .authedApp-8q3NA9, .connection-YOVI9j, .connectContainer-1hylYM, .guilds-XTTuu3 .cardWrapper-1bSePP, :root .codeRedemptionRedirect-2hYMSQ, .cameraWrapper-nG8dpo { /* Theming for dropdown menu and various cards */
-    background-color: var(--background-tertiary);
+    background-color: var(--background-tertiary) !important;
     box-shadow: var(--box-shadow);
     border: none;
 }
@@ -112,7 +112,7 @@
 }
 
 .bd-addon-list .bd-addon-card { /* Theming for BetterDiscord settings section */
-    background: var(--background-tertiary);
+    background: var(--background-tertiary) !important;
     box-shadow: var(--box-shadow);
     padding: 0px 16px 16px;
 }
@@ -123,7 +123,7 @@
 }
 
 .bd-description-wrap, .bd-footer {
-    background: var(--background-primary);
+    background: var(--background-primary) !important;
 }
 
 .bd-description-wrap {
@@ -158,7 +158,7 @@
 }
 
 .topPill-3DJJNV .themed-2-lozF.item-3XjbnG.selected-g-kMVV:hover:not(.disabled-1nofHP) {
-    background-color: var(--background-tertiary);
+    background-color: var(--background-tertiary) !important;
 }
 
 .privateChannels-oVe7HL .scroller-WSmht3.thin-31rlnD.scrollerBase-_bVAAt.fade-1R6FHN { /* Gives DM list enough room for box shadow to display fully */
@@ -166,7 +166,7 @@
 }
 
 .interactive-26HRN_.selected-26oxtA:hover { /* Fix selected DM color on hover */
-    background-color: var(--background-tertiary);
+    background-color: var(--background-tertiary) !important;
     color: var(--interactive-active);
 }
 
@@ -180,7 +180,7 @@
 }
 
 .nowPlayingColumn-1eCBCN .itemCard-3Etziu, :root .outer-2JOHae.active-1W_Gl9, :root .outer-2JOHae.interactive-2zD88a:hover { /* Theming for Active Now cards */
-    background-color: var(--background-tertiary);
+    background-color: var(--background-tertiary) !important;
     border: none;
     box-shadow: var(--box-shadow);
     margin-top: 16px;
@@ -203,14 +203,14 @@
 }
 
 .button-12Fmur.enabled-9OeuTA:hover, .button-1EGGcP.buttonColor-3bP3fX:hover, .withTagAsButton-OsgQ9L:hover { /* Hover background and box shadows on user buttons */
-    background-color: var(--background-tertiary);
+    background-color: var(--background-tertiary) !important;
     box-shadow: var(--box-shadow);
 }
 
 /* CHANNELS */
 
 :root .autocomplete-3NRXG8 {   /* Mentions menu background and shadow */ 
-    background-color: var(--background-tertiary);
+    background-color: var(--background-tertiary) !important;
     box-shadow: var(--box-shadow);
 }
 
@@ -240,17 +240,17 @@
 }
 
 .browser-mnQ1T7 .header-3_zmOb { /* Styling for Threads popup */
-    background-color: var(--background-primary);
+    background-color: var(--background-primary) !important;
 }
 
 .searchBox-3IjAC1.container-2oNtJn, .container-2rzKKA:hover {
-    background-color: var(--background-tertiary);
+    background-color: var(--background-tertiary) !important;
     box-shadow: var(--box-shadow);
     border: none;
 }
 
 .container-3i3IzO, .card-PQEqCK { /* Styling for threads preiew and first message card */
-    background-color: var(--background-tertiary);
+    background-color: var(--background-tertiary) !important;
     box-shadow: var(--box-shadow);
 }
 
@@ -259,7 +259,7 @@
 }
 
 .jumpToPresentBar-1cEnH0 {
-    background-color: var(--background-tertiary);
+    background-color: var(--background-tertiary) !important;
     box-shadow: var(--box-shadow);
     margin-bottom: 16px;
     padding: 4px;
@@ -273,7 +273,7 @@
 }
 
 :root .spoilerText-2G40u0.hidden-2lQZ5q, .markup-eYLPri pre code { /* Styling for code blocks and spoilers */
-    background-color: var(--background-tertiary);
+    background-color: var(--background-tertiary) !important;
     box-shadow: var(--box-shadow);
 }
 
@@ -291,7 +291,7 @@
 }
 
 .attachmentContentItem-UKeiCx {
-    background-color: var(--background-tertiary);
+    background-color: var(--background-tertiary) !important;
     box-shadow: var(--box-shadow);
     border-radius: 8px;
 }
@@ -308,12 +308,12 @@
 }
 
 .embedFull-1HGV2S { /* Styling for embeds */
-    background-color: var(--background-tertiary);
+    background-color: var(--background-tertiary) !important;
     box-shadow: var(--box-shadow);
 }
 
 .wrapper-2vIMkT, .reaction-3vwAF2 { /* Styling for message buttons and reactions */
-    background-color: var(--background-tertiary);
+    background-color: var(--background-tertiary) !important;
     box-shadow: var(--box-shadow);
 }
 
