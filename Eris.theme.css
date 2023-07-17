@@ -320,3 +320,8 @@
 .wrapper-2SplAX {   /* Box shadow for "Follow to get this channel's updates in your own server." wrapper */
     box-shadow: var(--box-shadow);
 }
+
+.queryContainer-ZunrLZ {
+    background-color: var(--background-tertiary) !important;
+    box-shadow: var(--box-shadow);
+}
