@@ -13,6 +13,9 @@
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css);
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/BlurpleRecolor/BlurpleRecolor.css);
 
+/* Revert old icons */
+@import url(https://davart154.github.io/Themes/Icon%20Revert%202023/2023%20Icon%20Revert.css);
+
 :root, .theme-dark, .theme-light {
 	--font: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
 
