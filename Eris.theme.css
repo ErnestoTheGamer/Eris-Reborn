@@ -1,8 +1,8 @@
 /**
- * @name Eris
+ * @name Eris Reborn
  * @author ErnestoTheGamer
  * @version 1.0
- * @description A revitalized version of RockESV's Eris theme, with the addition of some other features.
+ * @description A revitalized version of RockESV's Eris theme, with the addition of setting icons and old UI icons.
  * @source https://github.com/ErnestoTheGamer/vencord-themes
 */
 
@@ -11,7 +11,7 @@
 
 /* BetterDiscordAddons Theming for Blurple and Settings Icons */
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css);
-@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/BlurpleRecolor/BlurpleRecolor.css);
+/* @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/BlurpleRecolor/BlurpleRecolor.css); */
 
 /* Revert old icons */
 @import url(https://davart154.github.io/Themes/Icon%20Revert%202023/2023%20Icon%20Revert.css);
@@ -24,7 +24,7 @@
 	--font-primary: var(--font);
 	--font-display: var(--font);
 
-	--brand-experiment: hsl(227, 58%, 65%);
+	--brand-experiment: hsl(235, 85%, 65%);
 	--brand-500: var(--brand-experiment);
 	--brand-experiment-560: hsl(227, 58%, 67.5%);
 	--brand-experiment-600: hsl(227, 58%, 70%);
@@ -72,7 +72,7 @@
 
 :root .info__755e1 .text-xs-normal_ccc5fb:first-child:before { /* Eris theme information at the bottom of the Settings sections */
 	text-transform: none;
-	content: "Eris v1.5 by Rock";
+	content: "Eris Reborn v1.0";
 	display: block;
 }
 
