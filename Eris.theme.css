@@ -1,7 +1,7 @@
 /**
  * @name Eris Reborn
  * @author ErnestoTheGamer
- * @version 1.0
+ * @version 1.2
  * @description A revitalized version of RockESV's Eris theme, with the addition of setting icons and old UI icons.
  * @source https://github.com/ErnestoTheGamer/vencord-themes
 */
@@ -9,7 +9,7 @@
 /* Eris logos */
 @import url(https://raw.githubusercontent.com/ErnestoTheGamer/vencord-themes/main/src/eris-logos-pfps.css);
 
-/* BetterDiscordAddons Theming for Blurple and Settings Icons */
+/* BetterDiscordAddons Settings Icons */
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css);
 
 /* Revert old icons */
@@ -71,7 +71,7 @@
 
 :root .info__755e1 .text-xs-normal_ccc5fb:first-child:before { /* Eris theme information at the bottom of the Settings sections */
 	text-transform: none;
-	content: "Eris Reborn v1.0";
+	content: "Eris Reborn v1.2";
 	display: block;
 }
 
