@@ -11,7 +11,6 @@
 
 /* BetterDiscordAddons Theming for Blurple and Settings Icons */
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css);
-/* @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/BlurpleRecolor/BlurpleRecolor.css); */
 
 /* Revert old icons */
 @import url(https://davart154.github.io/Themes/Icon%20Revert%202023/2023%20Icon%20Revert.css);
@@ -88,7 +87,7 @@
 	background-color: var(--brand-experiment);
 }
 
-.accountProfileCard__22589, .bioTextArea_a108c9, .input_d266e7:not(.note_ba0c31 .textarea_c5a7a3, .multiInputField-1zyopx, .note-3TX9O7 .textarea_c5a7a3), .lookFilled__3dba3.select__0eb48, .itemFilled__373d7[aria-checked=true], .feedback__2b8a9 { /* Box shadow for various boxes in Settings */
+.accountProfileCard__22589, .bioTextArea_a108c9, .input_d266e7:not(.note_ba0c31 .textarea_c5a7a3, .multiInputField-1zyopx, .note-3TX9O7 .textarea_c5a7a3, .addFriendInput__568d8 .input_d266e7), .lookFilled__3dba3.select__0eb48, .itemFilled__373d7[aria-checked=true], .feedback__2b8a9 { /* Box shadow for various boxes in Settings */
 	box-shadow: var(--box-shadow);
 }
 
@@ -182,7 +181,7 @@
 	padding-right: 4px !important;
 }
 
-.interactive__776ee.selected_d94cf9:hover { /* Fix selected DM color on hover */
+.interactive__776ee.selected_d94cf9 { /* Fix selected DM color on hover */
 	background-color: var(--background-tertiary);
 	color: var(--interactive-active);
 }
@@ -341,4 +340,8 @@
 
 .wrapper_fbbb73 {   /* Box shadow for "Follow to get this channel's updates in your own server." wrapper */
 	box-shadow: var(--box-shadow);
+}
+
+.searchFilter__118cb, .searchAnswer_b452e7 { /* Search options in search bar */
+	background-color: var(--background-primary) !important;
 }
