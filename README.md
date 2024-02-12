@@ -6,7 +6,29 @@
 #### Requires [BetterDiscord](https://betterdiscord.app/) or [Vencord](https://vencord.dev/).
 
 - - -
-#### Download: https://github.com/ErnestoTheGamer/vencord-themes/releases/tag/v1.0
+
+#### Download: https://github.com/ErnestoTheGamer/vencord-themes/releases
+
+- - -
+
+#### Reporting Bugs
+
+I value your feedback and bug reports! To help me address issues effectively, please follow these steps when reporting a bug:
+
+- **Create a new issue on this repository:** [Issues](https://github.com/ErnestoTheGamer/vencord-themes/issues).
+- **Provide a clear and concise description of the problem.** Include the following information:
+    - Steps to reproduce the bug (if possible).
+    - The expected behaviour.
+    - Your Discord setup (operating system, BetterDiscord/Vencord version, and other relevant plugins).
+- **Screenshots or screen recordings can be helpful for visual bugs.**
+
+By following these guidelines, you can help me fix bugs faster and improve the theme for everyone.
+
+- - -
+
+#### Suggestions
+
+I'm always open to ideas on how to improve this theme! If you have any suggestions, please feel free to share them in the [Issues](https://github.com/ErnestoTheGamer/vencord-themes/issues) tab. Remember to be specific and to provide any relevant details that might help me understand your suggestion.
 
 - - -
 
