@@ -1,7 +1,7 @@
 /**
  * @name Eris Reborn
  * @author ErnestoTheGamer
- * @version 1.2
+ * @version 1.3
  * @description A revitalized version of RockESV's Eris theme, with the addition of setting icons and old UI icons.
  * @source https://github.com/ErnestoTheGamer/vencord-themes
 */
@@ -25,8 +25,8 @@
 
 	--brand-experiment: hsl(235, 85%, 65%);
 	--brand-500: var(--brand-experiment);
-	--brand-experiment-560: hsl(227, 58%, 67.5%);
-	--brand-experiment-600: hsl(227, 58%, 70%);
+	--brand-experiment-560: hsl(235, 70%, 60%);
+	--brand-experiment-600: hsl(235, 55%, 54%);
 	--background-secondary: var(--background-primary);
 	--background-secondary-alt: var(--background-primary);
 	--background-modifier-selected: var(--background-tertiary);
@@ -71,7 +71,7 @@
 
 :root .info__755e1 .text-xs-normal_ccc5fb:first-child:before { /* Eris theme information at the bottom of the Settings sections */
 	text-transform: none;
-	content: "Eris Reborn v1.2";
+	content: "Eris Reborn v1.3";
 	display: block;
 }
 
