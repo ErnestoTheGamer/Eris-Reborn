@@ -13,7 +13,7 @@
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css);
 
 /* Revert old icons */
-@import url(https://raw.githubusercontent.com/thisRedH/Themes/main/Icon%20Revert%202023/2023%20Icon%20Revert.css);
+@import url(https://raw.githubusercontent.com/thisRedH/DiscordThemes/main/IconRevert2k23Enhanced/IconRevert2k23Enhanced.theme.css);
 
 :root, .theme-dark, .theme-light {
 	--font: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
