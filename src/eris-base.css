@@ -5,63 +5,63 @@
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css);
 
 :root, .theme-dark, .theme-light {
-	--font: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+    --font: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
 
-	--settingsicons: 1;
+    --settingsicons: 1;
 
-	--font-primary: var(--font);
-	--font-display: var(--font);
+    --font-primary: var(--font);
+    --font-display: var(--font);
 
-	--brand-experiment: hsl(235, 85%, 65%);
-	--brand-500: var(--brand-experiment);
-	--brand-experiment-560: hsl(235, 70%, 60%);
-	--brand-experiment-600: hsl(235, 55%, 54%);
-	--background-secondary: var(--background-primary);
-	--background-secondary-alt: var(--background-primary);
-	--background-modifier-selected: var(--background-tertiary);
-	--background-floating: var(--background-tertiary);
-	--channeltextarea-background: var(--background-tertiary);
-	--input-background: var(--background-tertiary);
-	--scrollbar-auto-thumb: var(--background-tertiary);
-	--scrollbar-auto-track: transparent;
-	--scrollbar-thin-thumb: var(--background-tertiary);
-	--scrollbar-thin-track: transparent;
-	--modal-background: var(--background-primary);
-	--modal-footer-background: var(--background-primary);
-	--deprecated-card-bg: var(--background-tertiary);
-	--deprecated-text-input-border: none;
-	--box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
-	--elevation-high: var(--box-shadow);
-	--elevation-stroke: var(--box-shadow);
-	--dark-elevation-border: var(--box-shadow);
-	--dark-elevation-high: var(--box-shadow);
-	--dark-elevation-low: var(--box-shadow);
-	--search-popout-option-fade: transparent;
-	--search-popout-option-fade-hover: transparent;
+    --brand-experiment: hsl(235, 85%, 65%);
+    --brand-500: var(--brand-experiment);
+    --brand-experiment-560: hsl(235, 70%, 60%);
+    --brand-experiment-600: hsl(235, 55%, 54%);
+    --background-secondary: var(--background-primary);
+    --background-secondary-alt: var(--background-primary);
+    --background-modifier-selected: var(--background-tertiary);
+    --background-floating: var(--background-tertiary);
+    --channeltextarea-background: var(--background-tertiary);
+    --input-background: var(--background-tertiary);
+    --scrollbar-auto-thumb: var(--background-tertiary);
+    --scrollbar-auto-track: transparent;
+    --scrollbar-thin-thumb: var(--background-tertiary);
+    --scrollbar-thin-track: transparent;
+    --modal-background: var(--background-primary);
+    --modal-footer-background: var(--background-primary);
+    --deprecated-card-bg: var(--background-tertiary);
+    --deprecated-text-input-border: none;
+    --box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+    --elevation-high: var(--box-shadow);
+    --elevation-stroke: var(--box-shadow);
+    --dark-elevation-border: var(--box-shadow);
+    --dark-elevation-high: var(--box-shadow);
+    --dark-elevation-low: var(--box-shadow);
+    --search-popout-option-fade: transparent;
+    --search-popout-option-fade-hover: transparent;
 }
 
 .theme-dark {
-	--background-primary: #1f2125;
-	--background-tertiary: #14161a;
-	--text-normal: #ffffff;
-	--text-muted: #9b9b9b;
-	--channels-default: #b8b8b8;
+    --background-primary: #1f2125;
+    --background-tertiary: #14161a;
+    --text-normal: #ffffff;
+    --text-muted: #9b9b9b;
+    --channels-default: #b8b8b8;
 }
 
 .theme-light {
-	--background-primary: #f5f5f5;
-	--background-tertiary: #cccccc;
-	--channels-default: #1a1a1a;
-	--text-normal: #000000;
-	--text-muted: #6e6e6e;
+    --background-primary: #f5f5f5;
+    --background-tertiary: #cccccc;
+    --channels-default: #1a1a1a;
+    --text-normal: #000000;
+    --text-muted: #6e6e6e;
 }
 
 /* SETTINGS SECTION */
 
-:root .info_c5a741 .text-xs-normal_ccc5fb:first-child:before { /* Eris theme information at the bottom of the Settings sections */
-	text-transform: none;
-	content: "Eris Reborn v2.0";
-	display: block;
+:root .info_c5a741 .text-xs-normal__46d75:first-child:before { /* Eris theme information at the bottom of the Settings sections */
+    text-transform: none;
+    content: "Eris v1.4 by Rock";
+    display: block;
 }
 
 :root .sidebarRegionScroller_c25c6d { /* Settings sidebar background and selected options color */
