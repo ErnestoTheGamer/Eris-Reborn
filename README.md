@@ -3,7 +3,7 @@
 ### A Discord theme which aims to give it a darker, more elegant look, while maintaining its fundamental design.
 ### Restores the old Discord logo, colors, and fonts.
 
-#### Requires [BetterDiscord](https://betterdiscord.app/) or [Vencord](https://vencord.dev/).
+#### Requires [BetterDiscord](https://betterdiscord.app/) or [Vencord](https://vencord.dev/) (recommended).
 
 - - -
 
@@ -11,18 +11,11 @@
 
 - - -
 
-#### Reporting Bugs
+### Eris Reborn
 
-I value your feedback and bug reports! To help me address issues effectively, please follow these steps when reporting a bug:
+I made this project initially as a continuation of RockESV's Eris theme, as it wasn't receiving updates for a long time. So, I decided to update the theme myself. Since then, RockESV has updated his theme a bit and changed some stuff. I personally don't like some of the features, so I decided to change some of it to be more to my liking.
 
-- **Create a new issue on this repository:** [Issues](https://github.com/ErnestoTheGamer/Eris-reborn/issues).
-- **Provide a clear and concise description of the problem.** Include the following information:
-    - Steps to reproduce the bug (if possible).
-    - The expected behaviour.
-    - Your Discord setup (operating system, BetterDiscord/Vencord version, and other relevant plugins).
-- **Screenshots or screen recordings can be helpful for visual bugs.**
-
-By following these guidelines, you can help me fix bugs faster and improve the theme for everyone.
+Huge thanks to [RockESV](https://github.com/RockESV) for creating the original Eris theme! Without his work, this theme wouldn't exist.
 
 - - -
 
@@ -32,4 +25,4 @@ I'm always open to ideas on how to improve this theme! If you have any suggestio
 
 - - -
 
-Class converter used: https://syndishanx.github.io/Website/Update_Classes.html
+Class converter used for updating themes to newer discord versions: https://syndishanx.github.io/Website/Update_Classes.html
