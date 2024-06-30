@@ -60,7 +60,7 @@
 
 :root .info_c5a741 .text-xs-normal__46d75:first-child:before { /* Eris theme information at the bottom of the Settings sections */
     text-transform: none;
-    content: "Eris Reborn v2.0";
+    content: "Eris Reborn v2.1";
     display: block;
 }
 
@@ -228,6 +228,11 @@ ul.content_eed6a8[aria-label="Direct Messages"]:nth-child(2) .interactive_f5eb4b
 :root .autocomplete_f23da8 { /* Mentions menu background and shadow */
     background-color: var(--background-tertiary);
     box-shadow: var(--box-shadow);
+}
+
+.replyBar_b11c5e { /* Styling for reply bar above text box */
+	background-color: var(--background-tertiary);
+	box-shadow: var(--box-shadow);
 }
 
 .containerDefault_f6f816.wrapper_d8bfb3.modeSelected_d8bfb3 { /* Styling for selected channel or thread */
