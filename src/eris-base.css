@@ -231,8 +231,8 @@ ul.content_eed6a8[aria-label="Direct Messages"]:nth-child(2) .interactive_f5eb4b
 }
 
 .replyBar_b11c5e { /* Styling for reply bar above text box */
-	background-color: var(--background-tertiary);
-	box-shadow: var(--box-shadow);
+    background-color: var(--background-tertiary);
+    box-shadow: var(--box-shadow);
 }
 
 .containerDefault_f6f816.wrapper_d8bfb3.modeSelected_d8bfb3 { /* Styling for selected channel or thread */
@@ -329,9 +329,10 @@ ul.content_eed6a8[aria-label="Direct Messages"]:nth-child(2) .interactive_f5eb4b
     box-shadow: var(--box-shadow);
 }
 
-.embedFull_ad0b71 { /* Styling for embeds */
-    background-color: var(--background-tertiary);
+.embedFull_ad0b71, .wrapperAudio_f72aac { /* Styling for embeds */
+    background-color: var(--background-tertiary) !important;
     box-shadow: var(--box-shadow);
+    border: none;
 }
 
 .wrapper_ef319f, .reaction_ec6b19.reactionMe_ec6b19 { /* Styling for message buttons and reactions */
