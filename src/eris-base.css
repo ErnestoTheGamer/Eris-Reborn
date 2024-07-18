@@ -289,13 +289,13 @@ ul.content_eed6a8[aria-label="Direct Messages"]:nth-child(2) .interactive_f5eb4b
     margin-bottom: 15px;
 }
 
-:root .spoilerContent_a3d0f7.hidden_a3d0f7, .markup_f8f345 pre code { /* Styling for code blocks and spoilers */
+:root .spoilerContent_a3d0f7.hidden_a3d0f7, .markup_f8f345 code { /* Styling for code blocks and spoilers */
     background-color: var(--background-tertiary);
     box-shadow: var(--box-shadow);
 }
 
 .markup_f8f345 blockquote, .markup_f8f345 pre {
-    margin-bottom: 5px;
+    margin-bottom: 8px;
 }
 
 :root .spoilerContent_a3d0f7.hidden_a3d0f7:hover {
