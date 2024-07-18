@@ -149,11 +149,11 @@
     margin: 8px 8px;
 }
 
-.container_e44302 .upperContainer_e44302 {
+.container_fc4f04 .upperContainer_fc4f {
     padding: 4px 0;
 }
 
-.container_c2739c .container_e44302 {
+.container_c2739c .container_fc4f04 {
     padding: 0 8px;
 }
 
@@ -225,7 +225,7 @@ ul.content_eed6a8[aria-label="Direct Messages"]:nth-child(2) .interactive_f5eb4b
 
 /* CHANNELS */
 
-:root .autocomplete_f23da8 { /* Mentions menu background and shadow */
+:root .autocomplete_bcc24e { /* Mentions menu background and shadow */
     background-color: var(--background-tertiary);
     box-shadow: var(--box-shadow);
 }
@@ -266,7 +266,7 @@ ul.content_eed6a8[aria-label="Direct Messages"]:nth-child(2) .interactive_f5eb4b
     border: none;
 }
 
-.container_c15230, .card_f9902b, .submitContainer_fb4810 .channelTextArea_fb4810.channelTextArea_d0696b, div.container_b558d0 .wrapper_b9fe76 { /* Styling for threads preview, first message card, and server invites */
+.container_c15230, .card_f9902b, .submitContainer_fb4810 .channelTextArea_fb4810.channelTextArea_d0696b, div.container_b558d0 .wrapper_a71a1c { /* Styling for threads preview, first message card, and server invites */
     background-color: var(--background-tertiary);
     box-shadow: var(--box-shadow);
 }
@@ -294,7 +294,7 @@ ul.content_eed6a8[aria-label="Direct Messages"]:nth-child(2) .interactive_f5eb4b
     box-shadow: var(--box-shadow);
 }
 
-.markup_d6076c blockquote, .markup_d6076c pre {
+.markup_f8f345 blockquote, .markup_f8f345 pre {
     margin-bottom: 5px;
 }
 
@@ -302,13 +302,13 @@ ul.content_eed6a8[aria-label="Direct Messages"]:nth-child(2) .interactive_f5eb4b
     background-color: var(--background-modifier-hover);
 }
 
-.newMosaicStyle_ad9cbd .textContainer_ad9cbd, .newMosaicStyle_ad9cbd .footer_ad9cbd, .newMosaicStyle_ad9cbd .codeView_ad9cbd, .attachment_a4623d { /* Styling for attachments */
+.newMosaicStyle_d8e2d0 .textContainer_d8e2d0, .newMosaicStyle_d8e2d0 .footer_d8e2d0, .newMosaicStyle_d8e2d0 .codeView_d8e2d0, .attachment_b52bef { /* Styling for attachments */
     background-color: var(--background-tertiary);
     box-shadow: var(--box-shadow);
     border: none;
 }
 
-.hoverButtonGroup_ab8b23 { /* Styling for hover buttons above attachments */
+.hoverButtonGroup_e5c1dc { /* Styling for hover buttons above attachments */
     box-shadow: var(--box-shadow);
 }
 
@@ -319,7 +319,7 @@ ul.content_eed6a8[aria-label="Direct Messages"]:nth-child(2) .interactive_f5eb4b
     border: none;
 }
 
-.hoverButtonGroup_ab8b23.nonMediaAttachment_ef83c1 {
+.hoverButtonGroup_e5c1dc.nonMediaAttachment_ef83c1 {
     outline: none;
     top: 8px;
     right: 8px;
@@ -330,7 +330,7 @@ ul.content_eed6a8[aria-label="Direct Messages"]:nth-child(2) .interactive_f5eb4b
     box-shadow: var(--box-shadow);
 }
 
-.embedFull_ad0b71, .wrapperAudio_f72aac { /* Styling for embeds */
+.embedFull_b0068a, .wrapperAudio_f72aac { /* Styling for embeds */
     background-color: var(--background-tertiary) !important;
     box-shadow: var(--box-shadow);
     border: none;
@@ -365,7 +365,7 @@ ul.content_eed6a8[aria-label="Direct Messages"]:nth-child(2) .interactive_f5eb4b
     background-color: var(--background-primary) !important;
 }
 
-.children_e44302::after { /* Styling for weird fading element */
+.children_fc4f04::after { /* Styling for weird fading element */
     display: none;
 }
 
