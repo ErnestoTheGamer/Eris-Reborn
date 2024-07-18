@@ -137,8 +137,8 @@
     display: none;
 }
 
-.searchBar_f0963d .searchBarComponent_f0963d { /* Conversartion search box shadow */
-    box-shadow: var(--box-shadow);
+.searchBar_f0963d { /* Conversartion search box weird bottom border fix */
+    box-shadow: none;
 }
 
 .topPill_a0 .themed_a0.selected_a0.item_c2739c { /* Box shadow for selected tab under Friends */
