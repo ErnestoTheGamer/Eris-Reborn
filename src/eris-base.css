@@ -230,9 +230,10 @@ ul.content_eed6a8[aria-label="Direct Messages"]:nth-child(2) .interactive_f5eb4b
     box-shadow: var(--box-shadow);
 }
 
-.replyBar_b11c5e { /* Styling for reply bar above text box */
+.replyBar_b11c5e, .threadSuggestionBar_b11c5e { /* Styling for reply bar above text box */
     background-color: var(--background-tertiary);
     box-shadow: var(--box-shadow);
+	border: none;
 }
 
 .containerDefault_f6f816.wrapper_d8bfb3.modeSelected_d8bfb3 { /* Styling for selected channel or thread */
