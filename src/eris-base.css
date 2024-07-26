@@ -223,6 +223,11 @@ ul.content_eed6a8[aria-label="Direct Messages"]:nth-child(2) .interactive_f5eb4b
     box-shadow: var(--box-shadow);
 }
 
+.note_c2dcc6 .textarea_dde0a8 { /* Text field for notes section */
+    background-color: var(--background-tertiary);
+    box-shadow: var(--box-shadow);
+}
+
 /* CHANNELS */
 
 :root .autocomplete_bcc24e { /* Mentions menu background and shadow */
