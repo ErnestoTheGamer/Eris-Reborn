@@ -206,6 +206,10 @@ ul.content_eed6a8[aria-label="Direct Messages"]:nth-child(2) .interactive_f5eb4b
     box-shadow: var(--box-shadow) !important;
 }
 
+.container_eedf95 { /* Search popout box shadow */
+    box-shadow: var(--box-shadow);
+}
+
 .channelTextArea_a7d72e.channelTextArea_d0696b, .searchBar_a46bef { /* Message text field and message search bar box shadow */
     box-shadow: var(--box-shadow);
 }
