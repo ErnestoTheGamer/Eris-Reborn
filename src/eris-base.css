@@ -338,6 +338,10 @@ ul.content_eed6a8[aria-label="Direct Messages"]:nth-child(2) .interactive_f5eb4b
     background-color: transparent;
 }
 
+.contentWrapper_af5dbb { /* Emoji picker popup box shadow */
+    box-shadow: var(--box-shadow);
+}
+
 #emoji-picker-tab-panel .searchBar_c6ee36 { /* Emoji picker search bar */
     box-shadow: var(--box-shadow);
 }
