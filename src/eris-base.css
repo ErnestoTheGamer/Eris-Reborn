@@ -384,7 +384,7 @@ ul.content_eed6a8[aria-label="Direct Messages"]:nth-child(2) .interactive_f5eb4b
     background-color: var(--background-primary);
 }
 
-.container_a57509 { /* Styling for forum posts */
+.mainCard_a6d69a.container_a57509, .mainCard_a6d69a.container_d331f1 { /* Styling for forum posts */
     background-color: var(--background-tertiary);
     box-shadow: var(--box-shadow);
     border: none;
@@ -400,7 +400,7 @@ ul.content_eed6a8[aria-label="Direct Messages"]:nth-child(2) .interactive_f5eb4b
 
 /* VENCORD SETTINGS SECTION */
 
-.vc-settings-card, .vc-plugins-info-card, .vc-settings-quickActions-card { /* Styling for Vencord setting cards */
+.vc-settings-card, .vc-plugins-info-card, .vc-settings-quickActions-card, .vc-addon-card { /* Styling for Vencord setting cards */
     background-color: var(--background-tertiary) !important;
     box-shadow: var(--box-shadow);
 }
