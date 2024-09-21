@@ -14,6 +14,7 @@
 
     --brand-experiment: hsl(235, 85%, 65%);
     --brand-500: var(--brand-experiment);
+    --control-brand-foreground-new: var(--brand-experiment);
     --brand-experiment-560: hsl(235, 70%, 60%);
     --brand-experiment-600: hsl(235, 55%, 54%);
     --background-secondary: var(--background-primary);
@@ -187,14 +188,14 @@ ul.content_eed6a8[aria-label="Direct Messages"]:nth-child(2) .interactive_f5eb4b
     box-shadow: var(--box-shadow);
 }
 
-.nowPlayingColumn_c2739c .itemCard_f02fcf, :root .outer_c0f6a6.active_c0f6a6, :root .outer_c0f6a6.interactive_c0f6a6:hover { /* Theming for Active Now cards */
+.nowPlayingColumn_c2739c .itemCard_f02fcf, :root .outer_ac5d22.active_ac5d22, :root .outer_ac5d22.interactive_ac5d22:hover { /* Theming for Active Now cards */
     background-color: var(--background-tertiary);
     border: none;
     box-shadow: var(--box-shadow);
     margin-top: 16px;
 }
 
-.nowPlayingColumn_c2739c .itemCard_f02fcf .section_cd82a7, :root .inset_c0f6a6 { 
+.nowPlayingColumn_c2739c .itemCard_f02fcf .section_cd82a7, :root .inset_ac5d22 { 
     background-color: transparent;
 }
 
@@ -214,7 +215,7 @@ ul.content_eed6a8[aria-label="Direct Messages"]:nth-child(2) .interactive_f5eb4b
     box-shadow: var(--box-shadow);
 }
 
-.button_f67531.enabled_f67531:hover, .button_adcaac.buttonColor_adcaac:hover, .withTagAsButton_b2ca13:hover { /* Hover background and box shadows on user buttons */
+.button_adca65.enabled_adca65:hover, .button_adcaac.buttonColor_adcaac:hover, .withTagAsButton_b2ca13:hover { /* Hover background and box shadows on user buttons */
     background-color: var(--background-tertiary);
     box-shadow: var(--box-shadow);
 }
@@ -253,12 +254,12 @@ ul.content_eed6a8[aria-label="Direct Messages"]:nth-child(2) .interactive_f5eb4b
     /* margin-right: 8px; */
 }
 
-.selected_e9f61e.container_e9f61e .layout_e9f61e { /* Styling for selected user in channel */
+.selected_d808b0.container_d808b0 .layout_d808b0 { /* Styling for selected user in channel */
     box-shadow: var(--box-shadow);
     margin-right: 8px;
 }
 
-.container_e9f61e .layout_e9f61e:hover { /* Box shadow for hovered user in channel */
+.container_d808b0 .layout_d808b0:hover { /* Box shadow for hovered user in channel */
     margin-right: 8px;
 }
 
@@ -295,7 +296,7 @@ ul.content_eed6a8[aria-label="Direct Messages"]:nth-child(2) .interactive_f5eb4b
     margin-bottom: 15px;
 }
 
-:root .spoilerContent_a3d0f7.hidden_a3d0f7, .markup_f8f345 code { /* Styling for code blocks and spoilers */
+:root .spoilerContent_aa9639.hidden_aa9639, .markup_f8f345 code { /* Styling for code blocks and spoilers */
     background-color: var(--background-tertiary);
     box-shadow: var(--box-shadow);
 }
@@ -304,7 +305,7 @@ ul.content_eed6a8[aria-label="Direct Messages"]:nth-child(2) .interactive_f5eb4b
     margin-bottom: 8px;
 }
 
-:root .spoilerContent_a3d0f7.hidden_a3d0f7:hover {
+:root .spoilerContent_aa9639.hidden_aa9639:hover {
     background-color: var(--background-modifier-hover);
 }
 
@@ -314,7 +315,7 @@ ul.content_eed6a8[aria-label="Direct Messages"]:nth-child(2) .interactive_f5eb4b
     border: none;
 }
 
-.hoverButtonGroup_e5c1dc { /* Styling for hover buttons above attachments */
+.hoverButtonGroup_d0395d { /* Styling for hover buttons above attachments */
     box-shadow: var(--box-shadow);
 }
 
@@ -325,7 +326,7 @@ ul.content_eed6a8[aria-label="Direct Messages"]:nth-child(2) .interactive_f5eb4b
     border: none;
 }
 
-.hoverButtonGroup_e5c1dc.nonMediaAttachment_ef83c1 {
+.hoverButtonGroup_d0395d.nonMediaAttachment_ef83c1 {
     outline: none;
     top: 8px;
     right: 8px;
@@ -346,7 +347,7 @@ ul.content_eed6a8[aria-label="Direct Messages"]:nth-child(2) .interactive_f5eb4b
     border: none;
 }
 
-.wrapper_ef319f, .reaction_ec6b19.reactionMe_ec6b19 { /* Styling for message buttons and reactions */
+.wrapper_f7e168, .reaction_ec6b19.reactionMe_ec6b19 { /* Styling for message buttons and reactions */
     background-color: var(--background-tertiary);
     box-shadow: var(--box-shadow);
 }
@@ -367,6 +368,10 @@ ul.content_eed6a8[aria-label="Direct Messages"]:nth-child(2) .interactive_f5eb4b
 
 .searchFilter_b0fa94, .searchAnswer_b0fa94 {
     background-color: var(--background-tertiary) !important;
+}
+
+.channelAppLauncher_df39bd { /* Hide new apps and commands button */
+    display: none;
 }
 
 /* FORUM CHANNELS SECTION */
