@@ -309,7 +309,7 @@ ul.content_eed6a8[aria-label="Direct Messages"]:nth-child(2) .interactive_f5eb4b
     background-color: var(--background-modifier-hover);
 }
 
-.newMosaicStyle_d8e2d0 .textContainer_d8e2d0, .newMosaicStyle_d8e2d0 .footer_d8e2d0, .newMosaicStyle_d8e2d0 .codeView_d8e2d0, .attachment_b52bef { /* Styling for attachments */
+.newMosaicStyle_d8e2d0 .textContainer_d8e2d0, .newMosaicStyle_d8e2d0 .footer_d8e2d0, .newMosaicStyle_d8e2d0 .codeView_d8e2d0, .fileWrapper_f46c86 .file_f46c86 { /* Styling for attachments */
     background-color: var(--background-tertiary);
     box-shadow: var(--box-shadow);
     border: none;
