@@ -341,7 +341,7 @@ ul.content__99f8c[aria-label="Direct Messages"]:nth-child(2) .interactive_bf202d
     box-shadow: var(--box-shadow);
 }
 
-.embedWrapper_b7e1cb, .wrapperAudio_cf09d8, .pollContainer_b7e1cb, .embed_f69538 { /* Styling for embeds */
+.wrapperAudio_cf09d8, .pollContainer_b7e1cb, .embed_f69538 { /* Styling for embeds */
     background-color: var(--background-tertiary) !important;
     box-shadow: var(--box-shadow);
 }
